@@ -20,7 +20,7 @@ const Home = () => {
         
         <div className='hidden  flex-col gap-30 w-1/3 relative z-50 pointer-events-auto md:flex'>
           <p className='leading-relaxed'>I craft visually stunning and user-friendly <br/> websites that bring ideas to life.</p>
-        <a className='text-red-500 text-medium  hover:underline ' href="mailto:ashimughal687@gmail.com">ashimughal687@gmail.com</a>
+        <a className='text-[#0b2e41] text-medium  hover:underline ' href="mailto:ashimughal687@gmail.com">ashimughal687@gmail.com</a>
         </div>
         
        
