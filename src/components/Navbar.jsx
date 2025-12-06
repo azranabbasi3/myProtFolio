@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from "../assets/images/mylogo.png"
-
 const Navbar = () => {
   const navItems=[
     {name:"Home", id:"home"},
@@ -23,7 +21,7 @@ const Navbar = () => {
   const [activeSection, setActiveSection]=useState("home");
   return (
     <header className='backdrop-blur-lg  bg-[#f8f7f1]shadow-md    flex items-center justify-between p-4 px-10 w-full top-0 left-0 z-500 sticky bg-[#f8f7f1] text-[#0b2e41] '>
-         <img src={Logo} className='h-12 cursor-pointer' alt="Logo"
+         <img src="/mylogo.svg" className='h-12 cursor-pointer' alt="Logo"
          onClick={()=> handleScroll('home')}/>
         <nav className='hidden lg:flex'>
             <ul className='flex gap-8 text-sm tracking-wider uppercase font-medium'>

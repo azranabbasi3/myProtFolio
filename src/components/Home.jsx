@@ -1,7 +1,4 @@
 import React from 'react'
-import bgcImage from "../assets/images/bgc.png"
-// import myImage from "../assets/images/myImg.jpg"
-import myImage1 from "../assets/images/myImg1.png"
 const Home = () => {
   return (
      <section className=' bg-[#f8f7f1] text-[#0b2e41] px-5 py-14 md:px-10 ' id='home'>
@@ -15,8 +12,8 @@ const Home = () => {
         </div>
 
           <div className='-mt-5 relative w-[320px]  h-[450px] md:-mt-10 md:w-[420px] '>
-            <img src={bgcImage} alt="Background Image" className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full' />
-          <img src={myImage1} alt="Ayesha Image"
+            <img src="/bgc.svg" alt="Background Image" className='absolute bottom-0 left-1/2 -translate-x-1/2 w-full' />
+          <img src="/myImg1.png" alt="Ayesha Image"
           className='absolute bottom-0 left-1/2 -translate-x-1/2 w-[350px] z-20' />
         </div>
 

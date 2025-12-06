@@ -1,8 +1,6 @@
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import Logo from "../assets/images/mylogo.png"; // Path adjust kar lena
-
 const Footer = () => {
   return (
 <footer className="bg-[#f8f7f1] text-gray-700 pt-16 pb-10 px-6">
@@ -76,7 +74,7 @@ const Footer = () => {
       <div className="border-t border-gray-300 mt-14 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
 
         <img
-          src={Logo}
+          src="/mylogo.svg"
           alt="Ayesha Logo"
           className="h-12 hover:scale-105 transition-transform opacity-90"
         />
