@@ -4,43 +4,43 @@ import { MdEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
-  const [formData, setFormData]=useState({
-    name:"",
-    email:"",
-    message:"",
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
   });
   // Input Change Handler
-  const handleChange=(e)=>{
+  const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]:e.target.value,
+      [e.target.name]: e.target.value,
     });
   };
   // Form submit handler
-  const handleSubmit=(e)=>{
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
-    .send(
-      "service_4ybc9bc",
-      "template_t0e1sq8",
-      formData,
-      "ijl_MFmQAobOx5m5t",
-    )
-    .then(
-      (result) => {
-        alert("Message sent Successfully");
-        setFormData({name:"", email:"", message:""});
-      },
-      (error)=>{
-        alert("Failed to send message, try again.")
-      }
-    )
-  }
+      .send(
+        "service_1g2ivgf",
+        "template_e0rsdpw",
+        formData,
+        "-NxVzBDhdr5zzu4KZ"
+      )
+      .then(
+        (result) => {
+          alert("Message sent Successfully");
+          setFormData({ name: "", email: "", message: "" }, result);
+          console.log(FormData);
+        },
+        (error) => {
+          alert("Failed to send message, try again.", error);
+        }
+      );
+  };
   return (
     <section id="contact" className=" py-20 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-
         {/* Left Side Text & Social Links */}
         <div className="space-y-6">
           <h2 className="text-4xl font-bold text-[#0b2e41] relative inline-block">
@@ -48,8 +48,8 @@ const Contact = () => {
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
             I’d love to collaborate on exciting ideas and meaningful projects.
-            Whether you want to build something new or improve an existing product,
-            feel free to reach out!
+            Whether you want to build something new or improve an existing
+            product, feel free to reach out!
           </p>
 
           {/* Social Icons */}
@@ -80,56 +80,53 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-<div className="relative  w-[90%] md:w-[75%] mx-auto">
-  {/* Animated Border */}
-  
+        <div className="relative  w-[90%] md:w-[75%] mx-auto">
+          {/* Animated Border */}
 
-  <form 
-  onSubmit={handleSubmit}
-  className="relative bg-white rounded-2xl p-8 space-y-5 shadow-xl border-[3px] animate-borderRotate">
-    
-    <input
-      type="text"
-      name="name"
-      placeholder="Your Name"
-      value={formData.name}
-      onChange={handleChange}
-      required
-      className="w-full border border-gray-300 focus:border-[#1d5452]
+          <form
+            onSubmit={handleSubmit}
+            className="relative bg-white rounded-2xl p-8 space-y-5 shadow-xl border-[3px] animate-borderRotate"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+              className="w-full border border-gray-300 focus:border-[#1d5452]
       focus:ring-2 focus:ring-[#1d5452]/50 outline-none rounded-xl p-3"
-    />
-    <input
-      type="email"
-      name="email"
-      placeholder="Your Email"
-      value={formData.email}
-      onChange={handleChange}
-      required
-      className="w-full border border-gray-300 focus:border-[#eec248]
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className="w-full border border-gray-300 focus:border-[#eec248]
       focus:ring-2 focus:ring-[#eec248]/50 outline-none rounded-xl p-3"
-    />
-    <textarea
-    name="message"
-    value={formData.message}
-    onChange={handleChange}
-    required
-    placeholder="Write Message"
-    rows="5"
-    className="w-full border border-gray-300 focus:border-[#f16540]
+            />
+            <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+              placeholder="Write Message"
+              rows="5"
+              className="w-full border border-gray-300 focus:border-[#f16540]
     focus:ring-2 focus:ring-[#f16540]/50 outline-none rounded-xl p-3"
-    ></textarea>
+            ></textarea>
 
-    <button
-      type="submit"
-      className="w-full bg-[#286f6c] text-white font-semibold py-3 rounded-xl 
+            <button
+              type="submit"
+              className="w-full bg-[#286f6c] text-white font-semibold py-3 rounded-xl 
       shadow-md hover:scale-[1.04] transition-all"
-    >
-      Send Message
-    </button>
-  </form>
-</div>
-
-
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   );
