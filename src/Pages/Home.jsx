@@ -40,7 +40,7 @@ const Home = () => {
       className="w-full bg-[#f8f7f1] text-[#0b2e41] px-4 py-6 md:py-12 md:px-8  scroll-mt-20"
       id="home"
     >
-      <div className="flex flex-col w-full md:flex-row justify-between md:items-start">
+      <div className="flex flex-col w-full md:flex-row justify-between md:items-center">
         <div className="flex flex-col gap-4 flex-1 md:gap-18">
           <h1 className="text-xl  md:text-5xl font-semibold md:font-bold leading-tight:">
             Hey There,

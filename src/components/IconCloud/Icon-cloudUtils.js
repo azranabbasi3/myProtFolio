@@ -4,8 +4,7 @@ export const cloudProps = {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      width: '50%',
-      paddingTop: '25%',
+      width: '60%',
     },
   },
   options: {
