@@ -85,7 +85,7 @@ const Work = () => {
               Associate Software Engineer – Futurenostics
             </h3>
             <p className="text-sm text-gray-600 mb-2">
-              Feb 2025 – Jul 2025 · On-site
+              Feb 2025 – Jul 2025 · On-site (Islamabad)
             </p>
             <p>
               Developed full-stack features using React, Node.js, Express, and

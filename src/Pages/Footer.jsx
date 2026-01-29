@@ -30,7 +30,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://github.com/aisha-abid"
+              href="https://github.com/azranabbasi3"
               target="_blank"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-[#f16540] hover:scale-110 transition-transform shadow-md"
             >
@@ -68,10 +68,10 @@ const Footer = () => {
             Feel free to reach out for collaborations and opportunities.
           </p>
           <a
-            href="mailto:ashimughal687@gmail.com"
+            href="mailto:azranabbasi708@gmail.com"
             className="text-sm text-[#1d5452] hover:underline"
           >
-            ashimughal687@gmail.com
+            azranabbasi708@gmail.com
           </a>
         </div>
       </div>
@@ -80,12 +80,12 @@ const Footer = () => {
       <div className="border-t border-gray-300 mt-14 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
         <img
           src="/mylogo.png"
-          alt="Ayesha Logo"
+          alt="Azran Abbasi Logo"
           className="h-12 hover:scale-105 transition-transform opacity-90"
         />
 
         <p className="text-gray-600 text-center">
-          © {new Date().getFullYear()} Ayesha Naz • All Rights Reserved
+          © {new Date().getFullYear()} Azran Abbasi • All Rights Reserved
         </p>
       </div>
     </footer>
