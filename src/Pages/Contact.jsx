@@ -25,7 +25,7 @@ const Contact = () => {
         "service_1g2ivgf",
         "template_e0rsdpw",
         formData,
-        "-NxVzBDhdr5zzu4KZ"
+        "-NxVzBDhdr5zzu4KZ",
       )
       .then(
         (result) => {
@@ -35,7 +35,7 @@ const Contact = () => {
         },
         (error) => {
           alert("Failed to send message, try again.", error);
-        }
+        },
       );
   };
   return (
@@ -55,14 +55,14 @@ const Contact = () => {
           {/* Social Icons */}
           <div className="flex gap-6">
             <a
-              href="mailto:ashimughal687@gmail.com"
+              href="mailto:azranabbasi708@gmail.com"
               className="w-12 h-12 rounded-full flex items-center justify-center bg-[#1d5452] hover:scale-110 transition-transform cursor-pointer shadow-md"
             >
               <MdEmail size={24} className="text-white" />
             </a>
 
             <a
-              href="https://www.linkedin.com/in/ayesha-naz"
+              href="https://www.linkedin.com/in/azran-abbasi-744656257/"
               target="_blank"
               className="w-12 h-12 rounded-full flex items-center justify-center bg-[#eec248] hover:scale-110 transition-transform cursor-pointer shadow-md"
             >
@@ -70,7 +70,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://github.com/aisha-abid"
+              href="https://github.com/azranabbasi3"
               target="_blank"
               className="w-12 h-12 rounded-full flex items-center justify-center bg-[#f16540] hover:scale-110 transition-transform cursor-pointer shadow-md"
             >
