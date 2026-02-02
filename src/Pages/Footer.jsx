@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="bg-[#f8f7f1] text-gray-700 pt-16 pb-10 px-6">
+    <footer id="footer" className="bg-[#f8f7f1] h-screen text-gray-700 pt-16 pb-10 px-6 flex  flex-col justify-center items-center">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
         {/* About Section */}
         <div className="space-y-3">
@@ -75,8 +75,6 @@ const Footer = () => {
           </a>
         </div>
       </div>
-
-      {/* Bottom Area */}
       <div className="border-t border-gray-300 mt-14 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
         <img
           src="/mylogo.png"

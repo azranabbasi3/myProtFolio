@@ -4,7 +4,7 @@ import { FaLaptopCode } from "react-icons/fa";
 const Services = () => {
   return (
     <div
-      className="flex flex-col-reverse gap-10 lg:flex-row items-center justify-center p-8 text-[rgb(11,46,65)] lg:p-24"
+      className="flex flex-col-reverse h-screen gap-10 lg:flex-row items-center justify-center p-8 text-[rgb(11,46,65)] lg:p-24"
       id="services"
     >
       <div className="flex flex-col gap-2 items-center justify-start">

@@ -39,7 +39,7 @@ const Contact = () => {
       );
   };
   return (
-    <section id="contact" className=" py-20 px-6">
+    <section id="contact" className=" py-20 px-6 md:h-screen">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* Left Side Text & Social Links */}
         <div className="space-y-6">

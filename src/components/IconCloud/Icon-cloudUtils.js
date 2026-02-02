@@ -1,9 +1,6 @@
 export const cloudProps = {
   containerProps: {
     style: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
       width: '60%',
     },
   },
