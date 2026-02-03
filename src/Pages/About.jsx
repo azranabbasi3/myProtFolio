@@ -9,7 +9,6 @@ const About = () => {
       <h1 className="text-4xl font-bold text-[#0b2e41] md:mb-10 md:text-5xl">
         About Me
       </h1>
-
       <div className="grid md:grid-cols-3 gap-8">
         {/* Card 1 */}
         <div className="flex flex-col items-center p-6 rounded-xl shadow-md bg-white hover:shadow-xl transition-all">

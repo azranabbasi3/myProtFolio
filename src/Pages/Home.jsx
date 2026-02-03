@@ -78,7 +78,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex-1  mb-15 z-50 pointer-events-auto md:block ">
+        <div className="hidden md:flex-1  mb-15 z-40 pointer-events-auto md:block ">
           <IconCloud iconSlugs={slugs} />
         </div>
       </div>

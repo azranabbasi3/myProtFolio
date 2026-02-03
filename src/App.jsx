@@ -7,7 +7,7 @@ import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
 import Footer from "./Pages/Footer";
 import Skills from "./Pages/Skills";
-import ScrollToTopButton from "./components/ScrollToTop/ScrolltoTop";
+import ScrollToTopButton from "./components/ScrolltoTop";
 
 const App = () => {
   return (
